@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build --rm -t docker/odoobase .
+docker build --rm -t docker/odoobase-cc .
