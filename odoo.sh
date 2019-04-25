@@ -12,7 +12,7 @@ header "Installing Odoo..."
 
 ## Install Odoo.
 run sudo -i -u odoo
-curl -Lf -o /opt/odoo/odoo.tar.gz https://github.com/trabacus-softapps/openerp-8.0-cc/archive/master.tar.gz
+curl -Lf -o /opt/odoo/odoo.tar.gz https://github.com/trabacus-softapps/openerp-8.0-cc/archive/bookamenu.tar.gz
 run mkdir -p /opt/odoo/{bin,etc,sources/odoo/addons,additional_addons,data} && \
         cd /opt/odoo/sources/odoo && \
         tar -xvf /opt/odoo/odoo.tar.gz --strip 1 && \
